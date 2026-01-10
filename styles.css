@@ -29,10 +29,61 @@
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
             font-size: 16pt;
 			padding: 5%;
+			/*padding-top: 8%;*/
         }
+		.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d2f599;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+}
+.home-button:hover {
+  background-color: #6f8251;
+}
+.navbar {
+  position: fixed;
+  text-align: center;
+  padding-top: 1%;
+  top: 0;       /* Use bottom: 0 for a footer bar */
+
+  z-index: 999; /* Keeps it above other page content */
+  background-color: black;
+  /*width: 100vw;*/
+  /*left: 0;*/
+  bottom: 90%;
+  left: 5%;
+  right: 5%;
+
+}
+.box {
+		background: black;
+		left: -50vw;
+		right: -50vw;
+		z-index: -1;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 15%;
+}
+
+.page-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d0f750;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+}
+.page-button:hover {
+  background-color: #637724;
+}
     h1 {
             color: yellow;
             background-color: black;
+			z-index: 10;
         }
     h2 {
             color: rgb(211, 247, 81);
